@@ -1,4 +1,4 @@
-@import-normalize; /* bring in normalize.css styles */
+@import "normalize.css"; /* bring in normalize.css styles */
 
 body {
   margin: 0;
@@ -7,9 +7,21 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to right, rgb(61, 46, 54), rgb(165, 25, 170), rgb(66, 51, 66));
+  /* background-color: #7e0181; */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#root {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+  margin-top: 35px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
