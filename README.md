@@ -20,7 +20,7 @@ The `Profile` component displays user information for a social media account. Th
 - Utilizes a structured layout with CSS for a clean and responsive design.
 
 **Example Usage:**
-```jsx
+```js
 import user from 'path/to/user.json';
 
 <Profile
@@ -32,7 +32,7 @@ import user from 'path/to/user.json';
 />
 ```
 
-### 2. Statistics Component
+![2. Statistics Component](https://img.shields.io/badge/2.%20Statistics%20Component-purple?style=for-the-badge)
 
 The `Statistics` component is designed to display a variety of statistics based on the provided data. The data is passed as props, allowing the component to dynamically render the statistics. The title prop is optional, and the stats prop contains an array of statistical data stored in `data.json`.
 
@@ -42,14 +42,14 @@ The `Statistics` component is designed to display a variety of statistics based 
 - Includes the option to dynamically generate background colors for each statistic.
 
 **Example Usage:**
-```jsx
+```js
 import data from 'path/to/data.json';
 
 <Statistics title="Upload stats" stats={data} />
 <Statistics stats={data} />
 ```
 
-### 3. FriendList Component
+![3. FriendList Component](https://img.shields.io/badge/3.%FriendList%20Component-purple?style=for-the-badge)
 
 The `FriendList` component shows a list of the user's friends, with each friend's online status clearly indicated. This component accepts a `friends` prop, which is an array of objects representing each friend, stored in `friends.json`.
 
@@ -59,13 +59,13 @@ The `FriendList` component shows a list of the user's friends, with each friend'
 - Renders a flexible list that can accommodate any number of friends.
 
 **Example Usage:**
-```jsx
+```js
 import friends from 'path/to/friends.json';
-
 <FriendList friends={friends} />
 ```
 
-### 4. TransactionHistory Component
+![4. TransactionHistory Component](https://img.shields.io/badge/4.%TransactionHistory%20Component-purple?style=for-the-badge)
+
 
 The `TransactionHistory` component displays a table of financial transactions, ideal for tracking activities in an internet banking application. The transactions are passed in as the `items` prop, sourced from the `transactions.json` file.
 
@@ -75,13 +75,13 @@ The `TransactionHistory` component displays a table of financial transactions, i
 - Provides a clean and accessible layout.
 
 **Example Usage:**
-```jsx
+```js
 import transactions from 'path/to/transactions.json';
 
 <TransactionHistory items={transactions} />
 ```
 
-## What I Learned
+![Overview](https://img.shields.io/badge/Overview-purple?style=for-the-badge)
 
 Through the development of these components, I gained valuable insights into React's component-based architecture, prop handling, and state management. I improved my understanding of how to efficiently structure and pass data between components using JSON files. Additionally, I enhanced my skills in CSS styling, particularly in creating responsive and visually appealing user interfaces.
 
