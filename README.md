@@ -10,7 +10,7 @@
 
 ## Components Overview
 
-### 1. Profile Component
+![1. Profile Component](https://img.shields.io/badge/1.%20Profile%20Component-purple?style=for-the-badge)
 
 The `Profile` component displays user information for a social media account. The component takes in several props to render details such as the username, social media tag, location, avatar, and activity statistics. These data are stored in the `user.json` file.
 
