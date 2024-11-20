@@ -49,7 +49,7 @@ import data from 'path/to/data.json';
 <Statistics stats={data} />
 ```
 
-![3. FriendList Component](https://img.shields.io/badge/3.%FriendList%20Component-purple?style=for-the-badge)
+![3. FriendList Component](https://img.shields.io/badge/3.%20FriendList%20Component-purple?style=for-the-badge)
 
 The `FriendList` component shows a list of the user's friends, with each friend's online status clearly indicated. This component accepts a `friends` prop, which is an array of objects representing each friend, stored in `friends.json`.
 
@@ -64,7 +64,7 @@ import friends from 'path/to/friends.json';
 <FriendList friends={friends} />
 ```
 
-![4. TransactionHistory Component](https://img.shields.io/badge/4.%TransactionHistory%20Component-purple?style=for-the-badge)
+![4. TransactionHistory Component](https://img.shields.io/badge/4.%20TransactionHistory%20Component-purple?style=for-the-badge)
 
 
 The `TransactionHistory` component displays a table of financial transactions, ideal for tracking activities in an internet banking application. The transactions are passed in as the `items` prop, sourced from the `transactions.json` file.
