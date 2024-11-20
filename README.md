@@ -1,12 +1,12 @@
-# Social Media Dashboard
+# ✨ Social Media Dashboard ✨
 
 ## 🛠 Tools used
 
 [![My Skills](https://skillicons.dev/icons?i=html,css,js,react,npm,webpack,vscode)](https://skillicons.dev)
 
-## Introduction
-
-This project is a comprehensive social media dashboard composed of several key components that demonstrate fundamental concepts in React development. Each component has been carefully designed to handle specific data structures, styled using modern CSS techniques, and tested to ensure they meet the project requirements. The dashboard includes a user profile display, a statistics section, a friend list, and a transaction history table, all driven by JSON data files.
+![Description](https://img.shields.io/badge/Description-purple?style=for-the-badge)
+> This project is a comprehensive social media dashboard composed of several key components that demonstrate fundamental concepts in React development. Each component has been carefully designed to handle specific data structures, styled using > modern CSS techniques, and tested to ensure they meet the project requirements. The dashboard includes a user profile display, a statistics section, a friend list, and a transaction history table, all driven by JSON data files.
+>
 
 ## Components Overview
 
