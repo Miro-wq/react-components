@@ -1,16 +1,11 @@
-# ✨ Social Media Dashboard ✨
+# Social Media Dashboard
 
-## 🛠 Tools used
-
-[![My Skills](https://skillicons.dev/icons?i=html,css,js,react,npm,webpack,vscode)](https://skillicons.dev)
-
-![Description](https://img.shields.io/badge/Description-purple?style=for-the-badge)
-> This project is a comprehensive social media dashboard composed of several key components that demonstrate fundamental concepts in React development. Each component has been carefully designed to handle specific data structures, styled using > modern CSS techniques, and tested to ensure they meet the project requirements. The dashboard includes a user profile display, a statistics section, a friend list, and a transaction history table, all driven by JSON data files.
->
+## Description
+ This project is a comprehensive social media dashboard composed of several key components that demonstrate fundamental concepts in React development. Each component has been carefully designed to handle specific data structures, styled using > modern CSS techniques, and tested to ensure they meet the project requirements. The dashboard includes a user profile display, a statistics section, a friend list, and a transaction history table, all driven by JSON data files.
 
 ## Components Overview
 
-![1. Profile Component](https://img.shields.io/badge/1.%20Profile%20Component-purple?style=for-the-badge)
+## 1. Profile Component 
 
 The `Profile` component displays user information for a social media account. The component takes in several props to render details such as the username, social media tag, location, avatar, and activity statistics. These data are stored in the `user.json` file.
 
@@ -32,7 +27,7 @@ import user from 'path/to/user.json';
 />
 ```
 
-![2. Statistics Component](https://img.shields.io/badge/2.%20Statistics%20Component-purple?style=for-the-badge)
+## 2. Statistics Component 
 
 The `Statistics` component is designed to display a variety of statistics based on the provided data. The data is passed as props, allowing the component to dynamically render the statistics. The title prop is optional, and the stats prop contains an array of statistical data stored in `data.json`.
 
@@ -49,7 +44,7 @@ import data from 'path/to/data.json';
 <Statistics stats={data} />
 ```
 
-![3. FriendList Component](https://img.shields.io/badge/3.%20FriendList%20Component-purple?style=for-the-badge)
+## 3. FriendList Component 
 
 The `FriendList` component shows a list of the user's friends, with each friend's online status clearly indicated. This component accepts a `friends` prop, which is an array of objects representing each friend, stored in `friends.json`.
 
@@ -64,7 +59,7 @@ import friends from 'path/to/friends.json';
 <FriendList friends={friends} />
 ```
 
-![4. TransactionHistory Component](https://img.shields.io/badge/4.%20TransactionHistory%20Component-purple?style=for-the-badge)
+## 4. TransactionHistory Component 
 
 
 The `TransactionHistory` component displays a table of financial transactions, ideal for tracking activities in an internet banking application. The transactions are passed in as the `items` prop, sourced from the `transactions.json` file.
@@ -81,7 +76,7 @@ import transactions from 'path/to/transactions.json';
 <TransactionHistory items={transactions} />
 ```
 
-![Overview](https://img.shields.io/badge/Overview-purple?style=for-the-badge)
+## Overview 
 
 Through the development of these components, I gained valuable insights into React's component-based architecture, prop handling, and state management. I improved my understanding of how to efficiently structure and pass data between components using JSON files. Additionally, I enhanced my skills in CSS styling, particularly in creating responsive and visually appealing user interfaces.
 
